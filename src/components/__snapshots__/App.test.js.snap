@@ -15,6 +15,11 @@ exports[`App Test Renders an App 1`] = `
       />
     </Route>
     <Route
+      path="/all"
+    >
+      <All />
+    </Route>
+    <Route
       component={[Function]}
       exact={true}
       path="/"
@@ -34,6 +39,11 @@ exports[`App Test Renders an App 1`] = `
       to="/characters"
     >
       Go
+    </Link>
+    <Link
+      to="/all"
+    >
+      View All
     </Link>
   </Route>
   <Route
