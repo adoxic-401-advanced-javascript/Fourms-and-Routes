@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Test Renders an Header 1`] = `
+<header>
+  <h1>
+    Aliens?????
+  </h1>
+</header>
+`;

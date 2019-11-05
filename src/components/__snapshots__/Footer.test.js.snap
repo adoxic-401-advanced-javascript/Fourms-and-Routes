@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Test Renders an Footer 1`] = `
+<footer>
+  <p>
+     site made by maeve griffin using the X-files api 
+  </p>
+</footer>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Random Test Renders an Random 1`] = `
+<Fragment>
+  <Characters
+    characters={Array []}
+    title="random"
+  />
+  <button
+    onClick={[Function]}
+  >
+    Another Random?
+  </button>
+</Fragment>
+`;

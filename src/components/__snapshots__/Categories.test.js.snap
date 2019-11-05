@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Categories Test Renders an Categories 1`] = `
+<Fragment>
+  <h2 />
+  <Characters
+    characters={Array []}
+    title={Array []}
+  />
+</Fragment>
+`;
