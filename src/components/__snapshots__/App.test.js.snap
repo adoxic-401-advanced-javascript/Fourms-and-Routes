@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Test Renders an App 1`] = `
+<BrowserRouter>
+  <Route
+    component={[Function]}
+    path="/"
+  />
+  <Switch>
+    <Route
+      path="/characters"
+    >
+      <Categories
+        category=""
+      />
+    </Route>
+    <Route
+      path="/all"
+    >
+      <All />
+    </Route>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+  </Switch>
+  <Route
+    path="/"
+  >
+    <p>
+      type a category like Main characters or Monster of the Week or characters like Dana Scully
+    </p>
+    <input
+      onChange={[Function]}
+      type="text"
+    />
+    <Link
+      to="/characters"
+    >
+      Go
+    </Link>
+    <Link
+      to="/all"
+    >
+      View All
+    </Link>
+  </Route>
+  <Route
+    component={[Function]}
+    path="/"
+  />
+</BrowserRouter>
+`;
