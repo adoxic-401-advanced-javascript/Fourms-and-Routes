@@ -7,6 +7,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Random from './Random';
 import Catagories from './Categories';
+import All from './All';
 
 
 export default function App() {
@@ -24,6 +25,10 @@ export default function App() {
           />
         </Route>
 
+        <Route path="/all">
+          <All />
+        </Route>
+
         <Route exact path="/" component={Random} />
       </Switch>
 
@@ -33,6 +38,7 @@ export default function App() {
         <input type='text' onChange={({ target }) => {
           setState(target.value); } }></input>
         <Link to="/characters">Go</Link>
+        <Link to="/all">View All</Link>
       </Route>
       <Route path="/" component={Footer} />
     </Router>
