@@ -7,11 +7,16 @@ export default function All() {
   const [page, setPage] = React.useState(1);
 
   React.useEffect(() => {
-    next();
-    back();
     handleClick();
   }, []);
 
+  React.useEffect(() => {
+    next();
+  }, []);
+
+  React.useEffect(() => {
+    back();
+  }, []);
 
   const handleClick = () => {
     fetchXfile(`http://xfiles-api.herokuapp.com/api/v1/characters?perPage=10&page=${page}`)
@@ -21,14 +26,12 @@ export default function All() {
   };
 
   const next = () => {
-    console.log('clicked');
     setPage(page + 1);
     handleClick();
   };
 
   const back = () => {
     if(page > 1) {
-      console.log('clicked');
       setPage(page - 1);
       handleClick();
     }
